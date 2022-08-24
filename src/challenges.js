@@ -1,6 +1,10 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
+
+function compareTrue(cozinha, banheiro) {
+  if (cozinha && banheiro === true) {
+    return true;
+  }
+  return false;
 }
 
 // Desafio 2
