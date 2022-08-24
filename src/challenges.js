@@ -11,12 +11,12 @@ function compareTrue(cozinha, banheiro) {
 function calcArea(base, height) {
   let area = ((base * height) / 2);
   return area;
-
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(string) {
+  let separated = string.split(' ');
+  return separated;
 }
 
 // Desafio 4
