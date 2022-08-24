@@ -20,13 +20,18 @@ function splitSentence(string) {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(names) {
+  names = [];
+  let lastFirst = 0;
+  for (let index = 0; index < names.length; index += 1) {
+    let lastFirst = names[index.length] + names.index[0];
+  }
+  return lastFirst;
 }
-
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let result = wins * 3 + ties;
+  return result;
 }
 
 // Desafio 6
