@@ -21,11 +21,7 @@ function splitSentence(string) {
 
 // Desafio 4
 function concatName(names) {
-  names = [];
-  let lastFirst = 0;
-  for (let index = 0; index < names.length; index += 1) {
-    let lastFirst = names[index.length] + names.index[0];
-  }
+  let lastFirst = names[names.length -1] + ", " + names[0];
   return lastFirst;
 }
 // Desafio 5
@@ -36,7 +32,6 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount() {
-  // seu código aqui
 }
 
 // Desafio 7
